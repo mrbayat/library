@@ -1,0 +1,14 @@
+{
+  "mongoConfig": {
+    "perUrl": "mongodb://",
+    "database": "bookstore",
+    "options": {
+      "keepAlive": 1,
+      "useUnifiedTopology": true,
+      "useNewUrlParser": true,
+      "useCreateIndex": true,
+      "useFindAndModify": false
+    }
+  },
+  "serviceBaseUrl": "/api/bookstore/"
+}
